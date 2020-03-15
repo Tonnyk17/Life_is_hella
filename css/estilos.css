@@ -1,0 +1,127 @@
+
+@import url('https://fonts.googleapis.com/css?family=Coming+Soon&display=swap');
+html,body{
+  padding:0px;
+  margin:0px;
+  font-size: 15px;
+  font-family: 'Coming Soon', cursive;
+}
+nav{
+  display: flex;
+  background-color:black;
+  padding: 10px;
+  color: white;
+  justify-content: space-between;
+  align-items: center;
+}
+nav ul{
+  display: flex;
+
+}
+nav li{
+  padding-right: 20px;
+  list-style: none;
+
+}
+nav li a{
+  color: white;
+  text-decoration: none;
+}
+nav li a:hover{
+  color: purple;
+}
+
+.main_section{
+  padding: 10%;
+  text-align: center;
+
+}
+.products{
+  height: 200px;
+  padding: 15%;
+
+  background-position: center;
+  background-size: cover;
+  align-items: center;
+  display: flex;
+  color: black;
+}
+.product{
+  padding: 20px;
+  text-align: center;
+}
+.product .content{
+  padding: 20px;
+  background-color: white;
+  box-shadow: 0 0 2px black;
+
+
+}
+.img_content{
+  text-align: center;
+}
+.main_button{
+  background-color: #DD33FF;
+  color: white;
+  font-size: 17px;
+  width: 100%;
+  padding: 10px;
+  border: 0;
+  cursor: pointer;
+  border-radius: 2px;
+
+}
+.main_button:hover{
+  background-color:purple;
+}
+.wall{
+  padding: 30%;
+  display:flex;
+  justify-content: center;
+}
+.Coments{
+  padding: 40px;
+}
+
+.coment_image{
+  text-align: center top;
+}
+.refer{
+  text-align: center;
+}
+.like{
+  padding: 10px;
+  text-align: center;
+  display: flex;
+
+}
+.person{
+  padding: 20px;
+
+}
+h1{
+  text-align: center;
+}
+.person_img{
+  text-align: center;
+}
+.eye{
+  text-align: right;
+}
+.modulo_pago{
+  background-color: white;
+  box-shadow: 0 0 2px black;
+  padding: 10px;
+}
+.modulo_pago input{
+  margin-top: auto;
+  width: 100%;
+  padding: 1px;
+  border-radius: 2px;
+  border: 1px solid black;
+  box-sizing: border-box;
+}
+.camera_image{
+  max-width: 100px;
+  margin: auto;
+}

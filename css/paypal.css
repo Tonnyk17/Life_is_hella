@@ -1,0 +1,18 @@
+body{
+  background-color: black;
+}
+.mensaje_exito{
+  color: white;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+}
+.mensaje_exito a{
+  color: purple;
+}
+.hella_yes img{
+  width: 200px;
+  height: 200px;
+}
